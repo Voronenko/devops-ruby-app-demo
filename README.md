@@ -508,7 +508,7 @@ So, depending on network speed, you have your application installed.
 
 Let's check by ip address: 
 
-![Deployed application](https://raw.githubusercontent.com/Voronenko/devops-ruby-app-demo/master/docs/app-deployed.png "Application deployed")
+![Deployed application](https://raw.githubusercontent.com/Voronenko/devops-ruby-app-demo/master/docs/app_deployed.png)
 
 ## Points of Interest
 
