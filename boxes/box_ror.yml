@@ -1,0 +1,26 @@
+---
+- hosts: www
+
+  vars:
+    - root_dir: ..
+
+
+  pre_tasks:
+    - debug: msg="Pre tasks section"
+
+  roles:
+     - {
+         role: "sa-postgres",
+         option_create_app_user: true
+       }
+     - {
+         role: "sa-ruby",
+         ruby_install_setsystem: true,
+         ruby_version: 2.3.0,
+
+         option_install_sampleapp: true,
+         option_install_nginx_passenger: true
+       }
+
+  tasks:
+    - debug: msg="Tasks section"

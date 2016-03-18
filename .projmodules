@@ -1,0 +1,7 @@
+[submodule "roles/sa-postgres"]
+        path = boxes/roles/sa-postgres
+        url = git@github.com:softasap/sa-postgres.git
+[submodule "roles/sa-ruby"]
+        path = boxes/roles/sa-ruby
+        url = git@github.com:softasap/sa-ruby.git
+
